@@ -1,5 +1,12 @@
+<script setup>
+</script>
 <template>
   <div>
-    My portfolio
+    <NuxtLoadingIndicator/>
+    <NuxtLayout>
+      <NuxtPage/>
+    </NuxtLayout>
   </div>
 </template>
+<style scoped>
+</style>

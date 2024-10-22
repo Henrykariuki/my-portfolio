@@ -3,10 +3,15 @@
 </script>
 
 <template>
-    <div>
-        <MyHeader/>
+    <div class="flex flex-row gap-2">
         <div>
-            <slot />
+            <LeftPanel/>
+        </div>
+        <div class="grow border border-black">
+            <MyHeader />
+            <div>
+                <slot />
+            </div>
         </div>
     </div>
 </template>

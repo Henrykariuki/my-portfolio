@@ -1,10 +1,10 @@
 <script setup>
 </script>
 <template>
-  <div>
-    <NuxtLoadingIndicator/>
+  <div class="bg-[rgb(10,10,50)] text-white">
+    <NuxtLoadingIndicator />
     <NuxtLayout>
-      <NuxtPage/>
+      <NuxtPage />
     </NuxtLayout>
   </div>
 </template>

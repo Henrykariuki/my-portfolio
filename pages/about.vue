@@ -4,7 +4,7 @@
 <template>
     <div class="pb-10">
         <div class="border border-black">
-            <h1 class="font-bold text-3xl">About me</h1>
+            <h1 class="font-bold text-3xl mb-4">About me</h1>
             <div>
                 <p>I am a passionate frontend developer with a keen focus on creating dynamic and user-friendly web
                     applications. With a strong emphasis on responsive design and seamless user experiences, I strive to
@@ -18,8 +18,8 @@
         <div class="mt-20 mb-5">
             <p class="font-semibold text-2xl">My Services</p>
         </div>
-        <div class="border border-red-500 grid grid-cols-2 gap-6">
-            <div class="border border-black rounded-md">
+        <div class="grid grid-cols-2 gap-6">
+            <div class="border border-blue-700 rounded-lg px-4 py-6">
                 <p class="font-bold text-lg">Software Engineering</p>
                 <p class="leading-7">I am a software engineer focused on creating efficient, scalable solutions that
                     prioritize both
@@ -27,7 +27,7 @@
                     collaborate well with teams and consistently deliver clean, maintainable code. I enjoy tackling
                     complex challenges and am always seeking new ways to improve system performance and usability.</p>
             </div>
-            <div class="border border-black rounded-md">
+            <div class="border border-blue-700 rounded-lg px-4 py-6">
                 <p class="font-bold text-lg">Web Development</p>
                 <p class="leading-7">I'm a passionate software developer with a deep understanding of front-end
                     technologies and a

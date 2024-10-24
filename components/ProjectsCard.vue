@@ -10,10 +10,12 @@ defineProps({
 </script>
 <template>
     <div>
-        <div class="h-60 border border black flex flex-col justify-around rounded-lg">
+        <div class="h-60 border border-blue-700 flex flex-col justify-around rounded-lg text-center">
             <div>
-                <p class="">{{ name.name }}</p>
-                <button>View</button>
+                <a :href="name.link" target="_blank">
+                    <p class="hover:underline decoration-solid font-semibold mb-4">{{ name.name }}</p>
+                    <span class="hover:text-blue-200">View</span>
+                </a>
             </div>
         </div>
     </div>

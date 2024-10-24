@@ -3,11 +3,11 @@
 </script>
 
 <template>
-    <div class="flex flex-row gap-2">
+    <div class="flex flex-row gap-2 p-6">
         <div>
             <LeftPanel/>
         </div>
-        <div class="grow border border-black">
+        <div class="grow border border-black p-4">
             <MyHeader />
             <div>
                 <slot />

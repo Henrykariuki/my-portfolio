@@ -8,9 +8,9 @@ const buttons = [
 
 <template>
     <div>
-        <div class="flex justify-around text-gray-500 font-semibold">
+        <div class="flex justify-around text-white border-b border-blue-700 font-semibold pb-4 mb-4">
             <nav v-for="(nav, index) in buttons" :key="`id-${index}`">
-                <NuxtLink :to="nav.route">{{ nav.name }}</NuxtLink>
+                <NuxtLink class="hover:text-blue-200" :to="nav.route">{{ nav.name }}</NuxtLink>
             </nav>
         </div>
     </div>

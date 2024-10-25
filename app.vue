@@ -1,12 +1,26 @@
 <script setup>
+
 </script>
+
 <template>
-  <div class="bg-[rgb(10,10,50)] text-gray-200">
+  <div class="bg-[rgb(10,10,50)] text-gray-300">
     <NuxtLoadingIndicator />
     <NuxtLayout>
-      <NuxtPage />
+      <Transition name="fade">
+        <NuxtPage />
+      </Transition>
     </NuxtLayout>
   </div>
 </template>
+
 <style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-from {
+  opacity: 0;
+}
 </style>

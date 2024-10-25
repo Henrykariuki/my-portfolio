@@ -12,7 +12,7 @@ const socialIcons = [
 <template>
     <div>
         <div class=" md:border-r border-blue-700 md:w-64 px-4 h-full">
-            <div class="flex flex-row border-b md:border-hidden border-blue-700 gap-12 p-2">
+            <div class="flex flex-row border-b md:border-hidden border-blue-700 gap-12">
                 <div>
                     <img class="w-14 h-14 rounded-full md:w-52 md:h-52 object-cover md:mx-auto md:rounded-lg"
                         src="/images/image.jpg" />
@@ -38,7 +38,7 @@ const socialIcons = [
                     <p>+254713140987</p>
                 </div>
             </div>
-            <div class="hidden md:flex flex-row gap-4 flex justify-center mt-8">
+            <div class="hidden md:flex flex-row gap-4 flex justify-center my-5">
                 <div class="hover:scale-95 border border-orange-400 p-1.5 rounded-full text-orange-400" size="15"
                     v-for="(icon, index) in socialIcons" :key="index">
                     <a :href="icon.link" target="_blank">

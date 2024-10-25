@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="bg-[rgb(10,10,50)] text-gray-300">
+  <div class="bg-[rgb(10,10,50)] text-gray-100">
     <NuxtLoadingIndicator />
     <NuxtLayout>
       <Transition name="fade">

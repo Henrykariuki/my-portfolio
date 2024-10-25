@@ -2,7 +2,7 @@
 
 </script>
 <template>
-    <div class="pb-10">
+    <div>
         <div class="border border-black">
             <h1 class="font-bold text-3xl mb-4">About me</h1>
             <div>

@@ -3,7 +3,7 @@
 </script>
 <template>
     <div>
-        <div class="border border-black">
+        <div>
             <h1 class="font-bold text-3xl mb-4">About me</h1>
             <div>
                 <p>I am a passionate frontend developer with a keen focus on creating dynamic and user-friendly web

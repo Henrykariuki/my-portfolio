@@ -3,14 +3,14 @@
 </script>
 
 <template>
-    <div class="flex flex-col md:flex-row md:gap-2 md:p-6 h-screen">
+    <div class="flex flex-col md:flex-row md:gap-2 md:p-6 ">
         <div>
             <LeftPanel />
         </div>
-        <div class="grow overflow-auto ">
+        <div class="grow overflow-auto h-screen">
             <div class="p-4">
                 <MyHeader />
-                <div>
+                <div class="border-t border-blue-700 py-10 rounded-lg">
                     <slot />
                 </div>
             </div>

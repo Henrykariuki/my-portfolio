@@ -14,7 +14,7 @@ const socialIcons = [
         <div class=" md:border-r border-blue-700 md:w-64 px-4 h-full">
             <div class="flex flex-row border-b md:border-hidden border-blue-700 gap-12">
                 <div>
-                    <img class="w-14 h-14 rounded-full md:w-52 md:h-52 object-cover md:mx-auto md:rounded-lg"
+                    <img class="w-14 h-14 mb-2 rounded-full md:w-52 md:h-52 object-cover md:mx-auto md:rounded-lg"
                         src="/images/image.jpg" />
                 </div>
                 <div class="md:hidden flex flex-col justify-center">

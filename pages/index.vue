@@ -18,7 +18,7 @@
         <div class="mt-20 mb-5">
             <p class="font-semibold text-2xl">My Services</p>
         </div>
-        <div class="grid md:grid-cols-2 gap-6">
+        <div class="grid lg:grid-cols-2 gap-6">
             <div class="border border-blue-700 rounded-lg px-4 py-6">
                 <p class="font-bold text-lg">Software Engineering</p>
                 <p class="leading-7">I am a software engineer focused on creating efficient, scalable solutions that

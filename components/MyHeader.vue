@@ -2,7 +2,7 @@
 const buttons = [
     { name: 'About', route: '/' },
     { name: 'Projects', route: '/projects' },
-    { name: 'Resume', route: '/Resume' },
+    { name: 'Resume', route: '/resume' },
 ]
 </script>
 
